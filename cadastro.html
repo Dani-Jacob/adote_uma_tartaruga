@@ -5,7 +5,84 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro</title>
 </head>
+<style>
+    li{
+        list-style: none;
+    }
+    #main_header{
+        left: 0;
+        right: 0;
+        top:0;
+        width: 100%;
+        position:fixed;
+        background-color: #025159;
+        padding-left: 10px;
+        box-shadow: 0px 0px 10px gray;
+    }
+    #main_header img{
+        padding: 10px 10px 10px 10px;
+        height: 60px;
+        width: auto;
+    }
+    #main_header nav{
+        padding-right: 20px;
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+    }
+    #main_header ul{
+        display: flex;
+        justify-content: space-between;
+        gap: 10px;
+    }
+    #main_header ul a{
+        padding-right: 20px;
+        font-size: 120%;
+        text-decoration: none;
+        color: white;
+        font-family: 'Poppins',Helvetica,Arial,Lucida,sans-serif;
+        font-weight: bold;
+    }
+    #main_header ul a:hover{
+        color: rgb(145, 145, 145);
+    }
+
+    body{
+        margin: 0px;
+        background-color: #ebebeb;
+    }
+    #signUp_box{
+        border-radius: 20px;
+        width: 40%;
+        height: 600px;
+        background-color: white;
+        position: absolute;
+        top: 55%;
+        left: 50%;
+        box-shadow: 0px 0px 10px gray;
+        transform: translate(-50%, -50%);
+    }
+
+</style>
 <body>
-    
+	<header id = "main_header">
+		<nav>
+            <img src="imgs/logoTartaruga.png">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Quem somos</a></li>
+                <li><a href="#">Contatos</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="cadastro.html">Cadastro</a></li>
+            </ul>
+		</nav>
+	</header>
+
+    <main id="signUp_box">
+        <form action="" method="get">
+
+
+        </form>
+    </main>
 </body>
 </html>
