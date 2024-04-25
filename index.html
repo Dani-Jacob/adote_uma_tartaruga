@@ -11,23 +11,40 @@
         list-style: none;
     }
     #main_header{
-        position:fixed;
+        left: 0;
+        right: 0;
         top:0;
-        width: 99%; 
+        width: 100%;
+        position:fixed;
+        background-color: #BAD9CE;
+        padding-left: 10px;
     }
     #main_header img{
-        height: 100px;
+        padding: 10px 10px 10px 10px;
+        height: 60px;
         width: auto;
     }
     #main_header nav{
+        padding-right: 20px;
         align-items: center;
         display: flex;
         justify-content: space-between;
     }
-    #main_header_menu{
+    #main_header ul{
         display: flex;
         justify-content: space-between;
-        gap: 60px;
+        gap: 10px;
+    }
+    #main_header ul a{
+        padding-right: 20px;
+        font-size: 120%;
+        text-decoration: none;
+        color: white;
+        font-family: 'Poppins',Helvetica,Arial,Lucida,sans-serif;
+        font-weight: bold;
+    }
+    #main_header ul a:hover{
+        color: rgb(145, 145, 145);
     }
 
 
@@ -36,20 +53,21 @@
 <body>
 	<header id = "main_header">
 		<nav>
-            <img src="manoel.png">
-            <ul id="main_header_menu">
+            <img src="imgs/logoTartaruga.png">
+            <ul>
                 <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Products</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#">Quem somos</a></li>
+                <li><a href="#">Contatos</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="cadastro.html">Cadastro</a></li>
             </ul>
 		</nav>
-		
 	</header>
 
+
     <p>ola</p><br>
-    <p>aaa</p><br>
-    <p>aaa</p><br>
+    <p>2</p><br>
+    <p>3</p><br>
     <p>aaa</p><br>
     <p>aaa</p><br>
     <p>aaa</p><br>
