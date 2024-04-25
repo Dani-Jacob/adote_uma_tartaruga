@@ -50,17 +50,46 @@
     body{
         margin: 0px;
         background-color: #ebebeb;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 100vh;
     }
     #signUp_box{
+        margin-top: 5%;
         border-radius: 20px;
         width: 40%;
-        height: 600px;
+        height: 80%;
         background-color: white;
-        position: absolute;
-        top: 55%;
-        left: 50%;
         box-shadow: 0px 0px 10px gray;
-        transform: translate(-50%, -50%);
+        display: flex;
+        justify-content: center;
+
+    }
+    #signUp_box form{
+        font-family: 'Poppins',Helvetica,Arial,Lucida,sans-serif;
+        font-weight: bold;
+        padding-top: 10%;
+        display: flex;
+        flex-direction:column;
+        align-items: center;
+    }
+    #signUp_box form input{
+        height: 4%;
+        width: 200%;
+        border-radius: 5px;
+        box-shadow: 0px 0px 2px gray; 
+        border: none;
+        text-align: center;
+    }
+    #signUp_box form label{
+        width: 200%;
+        text-align: left;
+    }
+    .input_box{
+        color: white;
+        background-color: #025159;
     }
 
 </style>
@@ -80,7 +109,23 @@
 
     <main id="signUp_box">
         <form action="" method="get">
-
+            <label for="name">Nome</label><br>
+            <input type="text" id="name" name="name" required>
+            <br>
+            <label for="lastname">Sobrenome</label><br>
+            <input type="text" id="lastname" name="lastname" required>
+            <br>
+            <label for="idade">Idade</label><br>
+            <input type="number" id="idade" name="idade" min="18" max="120"  required>
+            <br>
+            <label for="email">E-mail</label><br>
+            <input type="email" id="email" name="email" required>
+            <br>
+            <label for="senha">Senha</label><br>
+            <input type="password" id="senha" name="senha" required>
+            <br>
+            <br>
+            <input class="input_box" type="submit" value="Enviar">            
 
         </form>
     </main>
