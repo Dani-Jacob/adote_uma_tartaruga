@@ -1,102 +1,38 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
+    <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,100..900;1,100..900&family=Maven+Pro:wght@400..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Signika+Negative:wght@300..700&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
     <title>Cadastro</title>
 </head>
-<style>
-    li{
-        list-style: none;
-    }
-    #main_header{
-        left: 0;
-        right: 0;
-        top:0;
-        width: 100%;
-        position:fixed;
-        background-color: #025159;
-        padding-left: 10px;
-        box-shadow: 0px 0px 10px gray;
-    }
-    #main_header img{
-        padding: 10px 10px 10px 10px;
-        height: 60px;
-        width: auto;
-    }
-    #main_header nav{
-        padding-right: 20px;
-        align-items: center;
-        display: flex;
-        justify-content: space-between;
-    }
-    #main_header ul{
-        display: flex;
-        justify-content: space-between;
-        gap: 10px;
-    }
-    #main_header ul a{
-        padding-right: 20px;
-        font-size: 120%;
-        text-decoration: none;
-        color: white;
-        font-family: 'Poppins',Helvetica,Arial,Lucida,sans-serif;
-        font-weight: bold;
-    }
-    #main_header ul a:hover{
-        color: rgb(145, 145, 145);
-    }
 
-    body{
-        margin: 0px;
-        background-color: #ebebeb;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        height: 100vh;
-    }
-    #signUp_box{
-        margin-top: 5%;
-        border-radius: 20px;
-        width: 40%;
-        height: 80%;
-        background-color: white;
-        box-shadow: 0px 0px 10px gray;
-        display: flex;
-        justify-content: center;
-
-    }
-    #signUp_box form{
-        font-family: 'Poppins',Helvetica,Arial,Lucida,sans-serif;
-        font-weight: bold;
-        padding-top: 10%;
-        display: flex;
-        flex-direction:column;
-        align-items: center;
-    }
-    #signUp_box form input{
-        height: 4%;
-        width: 200%;
-        border-radius: 5px;
-        box-shadow: 0px 0px 2px gray; 
-        border: none;
-        text-align: center;
-    }
-    #signUp_box form label{
-        width: 200%;
-        text-align: left;
-    }
-    .input_box{
-        color: white;
-        background-color: #025159;
-    }
-
-</style>
 <body>
-	<header id = "main_header">
-		<nav>
+    <style>
+        section{
+            text-align: center;
+            padding-top: 7.5%;
+            font-family: Signika Negative, "Montserrat", sans-serif;
+            font-size: 200%;
+            color: white;
+        }
+        body{
+            background-image: url("imgs/tartaruga4.jpg");
+            background-size:cover;
+            background-position: 0% 30%;
+        }
+    </style>
+    <header id="main_header">
+        <div>
             <img src="imgs/logoTartaruga.png">
+        </div>
+        <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="#">Quem somos</a></li>
@@ -104,30 +40,35 @@
                 <li><a href="login.html">Login</a></li>
                 <li><a href="cadastro.html">Cadastro</a></li>
             </ul>
-		</nav>
-	</header>
+        </nav>
+    </header>
 
-    <main id="signUp_box">
+    <section>Criar Conta</section>   
+
+    <main id="sign_box">
+        
         <form action="" method="get">
+            
             <label for="name">Nome</label><br>
-            <input type="text" id="name" name="name" required>
+            <input class="input_sing" type="text" id="name" name="name" required>
             <br>
             <label for="lastname">Sobrenome</label><br>
-            <input type="text" id="lastname" name="lastname" required>
+            <input class="input_sing" type="text" id="lastname" name="lastname" required>
             <br>
             <label for="idade">Idade</label><br>
-            <input type="number" id="idade" name="idade" min="18" max="120"  required>
+            <input class="input_sing" type="number" id="idade" name="idade" min="18" max="120" required>
             <br>
             <label for="email">E-mail</label><br>
-            <input type="email" id="email" name="email" required>
+            <input class="input_sing" type="email" id="email" name="email" required>
             <br>
             <label for="senha">Senha</label><br>
-            <input type="password" id="senha" name="senha" required>
+            <input class="input_sing" type="password" id="senha" name="senha" required>
             <br>
             <br>
-            <input class="input_box" type="submit" value="Enviar">            
+            <input class="input_submit input_sing" type="submit" value="Enviar" >
 
         </form>
     </main>
 </body>
+
 </html>

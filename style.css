@@ -1,0 +1,94 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+    height: 100vh;
+}
+li{
+    list-style: none;
+}
+#main_header img{
+    height: 60px;
+    width: auto;
+}
+#main_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5% 1%;
+    background-color: #125159;
+    box-sizing: border-box;
+    font-family:"Montserrat", sans-serif;
+    position:fixed;
+    width: 100%;
+
+}
+#main_header ul{
+    display: flex;
+}
+
+#main_header li a{
+    margin-right: 20px;
+    font-size: 120%;
+    text-decoration: none;
+    color: white;
+    font-weight:normal
+}
+#main_header ul a:hover{
+    color: rgb(145, 145, 145);
+    cursor: pointer;
+}
+
+#sign_box{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: -2.5%;
+    
+}
+#sign_box form{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    width: 30%;
+    font-family: Signika Negative, "Montserrat", sans-serif;
+    font-weight:500;
+    margin-top: 5%;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 0px 0px 10px gray;
+    opacity: 0.9;
+}
+
+.input_sing{
+    height: 5%;
+    width: 70%;
+    border-radius: 7px;
+    border:  2px solid gray;
+    text-align: center;
+    margin: -1%;
+}
+#sign_box form label{
+    width: 70%;
+    text-align: left;
+    margin: -0.5%;
+}
+.input_submit{
+    color: white;
+    background-color: #025159;
+    height: 5%;
+    width: 30%;
+}
+
+#sign_box form input:hover{
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    cursor: pointer;
+
+}
