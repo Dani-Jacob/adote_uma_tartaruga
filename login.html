@@ -16,10 +16,10 @@
 <body>
     <style>
         section{
-            text-align: center;
+            padding-left: 1%;
             padding-top: 7.5%;
             font-family: Signika Negative, "Montserrat", sans-serif;
-            font-size: 200%;
+            font-size: 300%;
             color: white;
         }
         body{
@@ -28,7 +28,7 @@
             background-position: 0% 30%;
         }
     </style>
-    <header id="main_header">
+    <header class="main_header">
         <div>
             <img src="imgs/logoTartaruga.png">
         </div>
@@ -45,18 +45,22 @@
 
     <section>Login</section>   
 
-    <main id="sign_box">
+    <main id="login_box">
         
         <form action="" method="get">
             
             <label for="email">E-mail</label><br>
-            <input class="input_sing" type="email" id="email" name="email" required>
+            <input class="input_login" type="email" id="email" name="email" required>
             <br>
             <label for="senha">Senha</label><br>
-            <input class="input_sing" type="password" id="senha" name="senha" required>
+            <input class="input_login" type="password" id="senha" name="senha" required>
             <br>
             <br>
-            <input class="input_submit input_sing" type="submit" value="Enviar">
+            <div class="div_submit">
+                <input class="input_submit_login input_login" type="submit" value="Enviar" onclick="location.href='index.html';"> 
+                <input class="input_submit_login input_login" type="submit" value="Cadastre-se" onclick="location.href='cadastro.html';">
+            </div>
+            
 
         </form>
     </main>

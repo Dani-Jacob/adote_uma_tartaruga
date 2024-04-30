@@ -14,12 +14,14 @@
 </head>
 
 <body>
+    
     <style>
         section{
-            text-align: center;
-            padding-top: 7.5%;
+            
+            padding-left: 1%;
+            padding-top: 8%;
             font-family: Signika Negative, "Montserrat", sans-serif;
-            font-size: 200%;
+            font-size: 300%;
             color: white;
         }
         body{
@@ -28,7 +30,8 @@
             background-position: 0% 30%;
         }
     </style>
-    <header id="main_header">
+
+    <header class="main_header">
         <div>
             <img src="imgs/logoTartaruga.png">
         </div>
@@ -43,7 +46,7 @@
         </nav>
     </header>
 
-    <section>Criar Conta</section>   
+    <section>Cadastro</section>   
 
     <main id="sign_box">
         
@@ -65,7 +68,7 @@
             <input class="input_sing" type="password" id="senha" name="senha" required>
             <br>
             <br>
-            <input class="input_submit input_sing" type="submit" value="Enviar" >
+            <input class="input_submit input_sing" type="submit" value="Enviar" onclick="location.href='login.html';" >
 
         </form>
     </main>

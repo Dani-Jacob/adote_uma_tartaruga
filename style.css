@@ -11,11 +11,11 @@ body{
 li{
     list-style: none;
 }
-#main_header img{
+.main_header img{
     height: 60px;
     width: auto;
 }
-#main_header {
+.main_header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -27,18 +27,18 @@ li{
     width: 100%;
 
 }
-#main_header ul{
+.main_header ul{
     display: flex;
 }
 
-#main_header li a{
+.main_header li a{
     margin-right: 20px;
     font-size: 120%;
     text-decoration: none;
     color: white;
     font-weight:normal
 }
-#main_header ul a:hover{
+.main_header ul a:hover{
     color: rgb(145, 145, 145);
     cursor: pointer;
 }
@@ -60,11 +60,10 @@ li{
     width: 30%;
     font-family: Signika Negative, "Montserrat", sans-serif;
     font-weight:500;
-    margin-top: 5%;
+    margin-top: 3%;
     border-radius: 20px;
     background-color: white;
-    box-shadow: 0px 0px 10px gray;
-    opacity: 0.9;
+    box-shadow: 0px 0px 8px black;
 }
 
 .input_sing{
@@ -92,3 +91,68 @@ li{
     cursor: pointer;
 
 }
+
+#login_box{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: -2.5%;
+    
+}
+#login_box form{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    width: 30%;
+    font-family: Signika Negative, "Montserrat", sans-serif;
+    font-weight:500;
+    margin-top: 5%;
+    border-radius: 20px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 8px black;
+
+}
+
+.input_login{
+    height: 8%;
+    width: 70%;
+    border-radius: 7px;
+    border:  2px solid gray;
+    text-align: center;
+    margin: -1%;
+}
+#login_boxform label{
+    width: 70%;
+    text-align: left;
+    margin: -0.5%;
+}
+.input_submit_login {
+    color: white;
+    background-color: #025159;
+    height: 45%;
+    width: 50%;
+}
+
+#login_box form input:hover{
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    cursor: pointer;
+}
+
+.div_submit{
+    display: flex;
+    justify-content: space-between;
+    flex-direction:row;
+    align-items: end;
+    height: 20%;
+    width: 80%;
+}
+
+#fotoHeader{
+    width: 100%;
+    height: 80%;
+    
+}
+
