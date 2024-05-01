@@ -25,6 +25,7 @@ li{
     font-family:"Montserrat", sans-serif;
     position:fixed;
     width: 100%;
+    z-index: 3;
 
 }
 .main_header ul{
@@ -33,7 +34,7 @@ li{
 
 .main_header li a{
     margin-right: 20px;
-    font-size: 120%;
+    font-size: 110%;
     text-decoration: none;
     color: white;
     font-weight:normal
@@ -150,9 +151,38 @@ li{
     width: 80%;
 }
 
+#banner_inicial{
+    position: relative;
+    width: 100%;
+
+}
+
 #fotoHeader{
     width: 100%;
     height: 80%;
-    
+    display: block;
+    object-fit: cover;
+    opacity: 0.8;
 }
+
+.waves{
+    position: absolute;
+    bottom: -0.1%;
+    width: 100%;
+
+}
+
+#texto_banner{
+    position: absolute;
+    bottom: 50%;
+    text-align: center;
+    width: 100%;
+    color:#025159;
+    font-family:"Montserrat", sans-serif;
+    font-size: 350%;
+    font-weight:500;
+   
+}
+
+
 
