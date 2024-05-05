@@ -12,10 +12,14 @@ body{
 li{
     list-style: none;
 }
+
+/*Nav bar*/
+
 .main_header img{
     height: 60px;
     width: auto;
 }
+
 .main_header {
     display: flex;
     justify-content: space-between;
@@ -27,9 +31,8 @@ li{
     position:fixed;
     width: 100%;
     z-index: 3;
-    
-
 }
+
 .main_header ul{
     display: flex;
 }
@@ -41,40 +44,47 @@ li{
     color: white;
     font-weight:normal
 }
+
 .main_header ul a:hover{
     color: rgb(145, 145, 145);
     cursor: pointer;
 }
-#logo_e_nome{
 
+#logo_e_nome{
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 8%;
     color: white;
 }
-.body_sing{
 
-        background-image: url("imgs/tartaruga4.jpg");
-        background-size:cover;
-        background-position: 0% 30%;
-}
 .page_name{
     padding-left: 1%;
-    padding-top: 8%;
-    font-family: Signika Negative, "Montserrat", sans-serif;
-    font-size: 300%;
-    color: white;
+    padding-top: 6rem;
+    font-family: "Manrope", Sans-serif;
+    font-size: 3rem;
+    color: black;
 }
+
+
+/*Cadastro*/
+
 #sign_box{
+
     display: flex;
     flex-direction: row;
-    justify-content: center;
     align-items: center;
-    margin-top: -2.5%;
+    gap: 9rem;
+    padding-top: 2rem;
     
 }
+
+#sign_box img{
+    box-shadow: 0px 0px 8px black;
+}
+
 #sign_box form{
+
     display: flex;
     flex-direction:column;
     align-items: center;
@@ -83,30 +93,41 @@ li{
     width: 30%;
     font-family: Signika Negative, "Montserrat", sans-serif;
     font-weight:500;
-    margin-top: 3%;
     border-radius: 20px;
     background-color: white;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    padding: 1.5rem 0rem;
+
+}
+
+#sign_box form:hover{
     box-shadow: 0px 0px 8px black;
 }
 
 .input_sing{
-    height: 5%;
+    height: 2rem;
     width: 70%;
     border-radius: 7px;
     border:  2px solid gray;
     text-align: center;
     margin: -1%;
+
 }
 #sign_box form label{
     width: 70%;
     text-align: left;
     margin: -0.5%;
 }
+
 .input_submit{
     color: white;
-    background-color: #025159;
-    height: 5%;
-    width: 30%;
+    background-color: #6b8e23;
+    height: 4rem;
+    width: 8rem;
+}
+
+.input_sing:hover{
+    background-color: #e9e9e9;
 }
 
 #sign_box form input:hover{
@@ -114,16 +135,29 @@ li{
     cursor: pointer;
 
 }
+.input_submit:hover{
+    background-color: #59771d;
+}
+
+/*Login*/
 
 #login_box{
     display: flex;
     flex-direction: row;
-    justify-content: center;
     align-items: center;
-    margin-top: -2.5%;
+    gap: 9rem;
+    margin-top: 2rem;
+
+}
+
+#login_box img{
+
+    box-shadow: 0px 0px 8px black;
     
 }
+
 #login_box form{
+
     display: flex;
     flex-direction:column;
     align-items: center;
@@ -132,31 +166,44 @@ li{
     width: 30%;
     font-family: Signika Negative, "Montserrat", sans-serif;
     font-weight:500;
-    margin-top: 5%;
     border-radius: 20px;
     background-color: #ffffff;
     box-shadow: 0px 0px 8px black;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
 
+}
+#login_box form:hover{
+    box-shadow: 0px 0px 8px black;
 }
 
 .input_login{
-    height: 8%;
-    width: 70%;
+
+    height: 2rem;
+    width: 20rem;
     border-radius: 7px;
     border:  2px solid gray;
     text-align: center;
     margin: -1%;
 }
+
+.input_login:hover{
+    background-color: #e9e9e9;
+}
+
 #login_boxform label{
     width: 70%;
     text-align: left;
     margin: -0.5%;
 }
+
 .input_submit_login {
     color: white;
-    background-color: #025159;
-    height: 45%;
-    width: 50%;
+    background-color: #6b8e23;
+    height: 4rem;
+    width: 8rem;
+}
+.input_submit_login:hover{
+    background-color: #59771d;
 }
 
 #login_box form input:hover{
@@ -166,12 +213,15 @@ li{
 
 .div_submit{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-direction:row;
-    align-items: end;
+    align-items: center;
+    gap: 2rem;
     height: 20%;
     width: 80%;
 }
+
+/*Banner inicial Index*/
 
 #banner_inicial{
     position: relative;
@@ -254,9 +304,15 @@ li{
     color: white;
 
 }
+
+.caixa_resposta_porque:hover{
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 6px 10px 0px, rgba(14, 30, 37, 0.32) 0px 6px 24px 0px;
+}
+
 .caixa_resposta_porque i{
     font-size: 2vw;
 }
+
 /*footer*/
 
 footer{
