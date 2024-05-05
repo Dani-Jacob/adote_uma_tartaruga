@@ -2,6 +2,7 @@
     margin:0;
     padding: 0;
     box-sizing: border-box;
+    letter-spacing: 1px;
 }
 
 body{
@@ -26,6 +27,7 @@ li{
     position:fixed;
     width: 100%;
     z-index: 3;
+    
 
 }
 .main_header ul{
@@ -43,7 +45,14 @@ li{
     color: rgb(145, 145, 145);
     cursor: pointer;
 }
+#logo_e_nome{
 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8%;
+    color: white;
+}
 #sign_box{
     display: flex;
     flex-direction: row;
@@ -210,7 +219,7 @@ li{
     align-items: center;
     margin: auto;
     width: 100%;
-    height: 10%;
+    height: 25%;
     position: relative;
     top: -10%;
 }
@@ -221,19 +230,56 @@ li{
 }
 #porque_adotar div{
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
     align-items: center;
+    justify-content: center;
     margin: auto;
     width: 100%;
-    height: 10%;
+    height: 100%;
     position: relative;
     top: -10%;
+    gap: 5%;
 }
 #porque_adotar_resposta
 {
     background-color: #025159;
     font-size: 1.2vw;
     width: 25%;
+    height: 100%;
+    word-break:break-all;
+    text-align: center;
+    padding: 1%;
+    left: 10%;
+    right: 10%;
+    border-radius: 60px;
 }
 
+/*footer*/
+
+footer{
+    width: 100%;
+    background-color: #025159;
+    margin-top: 8%;
+}
+
+#conteudo_footer{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%;
+    color: white;
+    font-size: 1vw;
+    padding: 1rem 1.5rem;
+    text-align: center;
+}
+
+#social_media{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+#conteudo_footer a{
+    height: 1.5rem ;
+    width: 1.5rem;
+    color: white;
+}
