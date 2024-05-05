@@ -181,20 +181,6 @@ li{
 
 }
 
-#texto_banner{
-    position: absolute;
-    bottom: 50%;
-    text-align: center;
-    width: 100%;
-    /*color:#616163;*/
-    color: rgb(59, 59, 59);
-    font-family: "Manrope", Sans-serif;
-    font-size: 3vw;
-    font-weight: bold;
-    /*text-shadow: #616163 1px -1px, #616163 -1px 1px, #616163 1px 1px, #616163 -1px -1px;*/
-
-}
-
 #figure_tartatuga_inicial{
     display: flex;
     align-items: center;
