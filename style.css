@@ -53,6 +53,19 @@ li{
     gap: 8%;
     color: white;
 }
+.body_sing{
+
+        background-image: url("imgs/tartaruga4.jpg");
+        background-size:cover;
+        background-position: 0% 30%;
+}
+.page_name{
+    padding-left: 1%;
+    padding-top: 8%;
+    font-family: Signika Negative, "Montserrat", sans-serif;
+    font-size: 300%;
+    color: white;
+}
 #sign_box{
     display: flex;
     flex-direction: row;
@@ -203,16 +216,16 @@ li{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: auto;
+    margin: 0;
     width: 100%;
     height: 25%;
     position: relative;
-    top: -10%;
+    top: -4rem;
 }
 
 #title_porque_adotar{
-    font-size: 180%;
-    color:#454546;
+    font-size: 200%;
+    font-family: "Manrope", Sans-serif;
 }
 #porque_adotar div{
     display: flex;
@@ -224,21 +237,26 @@ li{
     position: relative;
     top: -10%;
     gap: 5%;
+    font-family: "Manrope", Sans-serif;
 }
-#porque_adotar_resposta
+.caixa_resposta_porque
 {
-    background-color: #025159;
-    font-size: 1.2vw;
+    background-color: #ca7a05;
+    font-size: 1.3vw;
     width: 25%;
     height: 100%;
-    word-break:break-all;
+    word-break:keep-all;
     text-align: center;
     padding: 1%;
     left: 10%;
     right: 10%;
     border-radius: 60px;
-}
+    color: white;
 
+}
+.caixa_resposta_porque i{
+    font-size: 2vw;
+}
 /*footer*/
 
 footer{
@@ -268,4 +286,73 @@ footer{
     height: 1.5rem ;
     width: 1.5rem;
     color: white;
+    
+}
+#texto_footer{
+    font-family: "Manrope", Sans-serif;
+}
+
+/*Texto e imagens impactos do projeto*/
+
+#explicacao_projeto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px ;
+    word-break: keep-all;
+    font-size: 1.5rem;
+    font-family: "Manrope", Sans-serif;
+    margin-right: 2rem;
+    margin-top: -2.5rem;
+}
+
+#explicacao_projeto img{
+    box-shadow: 0px 0px 8px black;
+    
+}
+
+/* Opcoes de adocao*/
+#opcoes_ong{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    gap: 5rem;
+}
+
+.opcao_ong{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    border-radius: 25px;
+    font-size: 1.5rem;
+    font-family: "Manrope", Sans-serif;
+    font-weight: bold;
+}
+.opcao_ong img{
+    width: 20rem;
+}
+
+.opcao_ong:hover{
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 6px 10px 0px, rgba(14, 30, 37, 0.32) 0px 6px 24px 0px;
+
+}
+
+.opcao_ong button{
+    margin: 2rem;
+    font-size: 1.2rem;
+    font-weight: 550;
+    background-color: #6b8e23;
+    border: none;
+    border-radius: 20px;
+    padding: 0.8rem 3rem;
+}
+
+.opcao_ong button:hover{
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    cursor: pointer;
+    background-color:#ca7a05;
 }
