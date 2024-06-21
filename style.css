@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
 *{
     margin:0;
     padding: 0;
@@ -61,9 +62,9 @@ li{
 .page_name{
     padding-left: 1%;
     padding-top: 6rem;
-    font-family: "Manrope", Sans-serif;
+    font-family: "Josefin Sans", sans-serif;
     font-size: 3rem;
-    color: black;
+    color: #6b8e23;
 }
 
 
@@ -413,4 +414,116 @@ footer{
     box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
     cursor: pointer;
     background-color:#ca7a05;
+}
+.label_list{
+    width: 100%;
+    display: flex;
+    padding-top: 3rem;
+    font-family: Signika Negative, "Montserrat", sans-serif;
+    font-weight: bolder;
+    font-size: 1.3rem;
+    
+}
+.label_list p{
+    text-align: center;
+    width: 30%;
+
+}
+
+.users_list{
+    width: 100%;
+    padding: 1rem;
+    
+}
+.users_list li{
+    width: 100%;
+    background-color: rgb(128, 128, 128);
+    display: flex;
+    align-items: center;
+ 
+}
+.list_information{
+    display: inline-block;
+    width: 30%;
+    font-size: 1.2rem;
+    text-align: center;
+    color: white;
+    font-weight: 400;
+    overflow-wrap:break-word;
+    font-family: Signika Negative, "Montserrat", sans-serif;
+
+}
+
+.users_list li:nth-child(odd){
+    background-color: #125159 ;
+    
+}
+
+.label_section_list{
+    font-size: 2rem;
+    padding: 1rem;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: bolder;
+    color: #6b8e23;
+}
+
+.btn_close{
+    display: inline-block;
+    font-size: 2rem;
+    width: 10%;
+    text-align: center;
+    color: white;
+}
+.btn_close:hover{
+    font-size: 2.4rem;
+    cursor: pointer;
+    color: rgba(255, 0, 0, 0.644);
+    
+}
+
+.list_section{
+
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 6px 10px 0px, rgba(14, 30, 37, 0.32) 0px 6px 24px 0px;
+    border-radius: 25px;
+    width: 90%;
+
+}
+
+#box_list_section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.list_section button{
+    height: 2rem;
+    width: 10rem;
+    margin: 1rem;
+    font-size: 1rem;
+    background-color: rgba(255, 0, 0, 0.644);
+    color: white;
+    border-radius: 7px;
+    border:  2px solid gray;
+    text-align: center;
+}
+
+.list_section button:hover{
+    height: 2.05rem;
+    width: 10.1rem;
+    cursor: pointer;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    background-color: red
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;
+}
+.top input{
+    margin: 1rem;
+    width: 20%;
+    border-radius: 7px;
+
 }

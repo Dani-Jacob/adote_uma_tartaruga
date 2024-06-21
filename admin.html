@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+        <header class="main_header">
+            <div id="logo_e_nome">
+                <a href="index.html"><img src="imgs/logoTartaruga.png" alt="foto Tartaruga"></a>
+                <p>Adote uma Tartaruga</p>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#porque_adotar">Quem somos</a></li>
+                    <li><a href="#conteudo_footer">Contatos</a></li>
+                    <li><a href="login.html">Login</a></li>
+                    <li><a href="cadastro.html">Cadastro</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section class="page_name">Admin</section>
+
+        <section id="login_box">
+
+            <figure>
+                <img src="imgs/tartarugaVistaSuperior.jpg" alt="imagem tartaruga" width="500">
+            </figure>
+
+            <form action="index.html" method="get">
+
+                <label for="nome">Nome</label><br>
+                <input class="input_login" type="text" id="nome" name="nome" required>
+                <br>
+                <label for="email">E-mail</label><br>
+                <input class="input_login" type="email" id="emaik" name="email" required>
+                <br>
+                <br>
+
+                <button class="input_submit_login input_login" onclick="window.location.href='cadastro.html'">Cadastrar
+                    Usuário</button>
+
+            </form>
+    
+
+        </section>
+
+    <div id="box_list_section">
+        <section class="list_section">
+            
+            <div class="top">
+            <p class="label_section_list">Usuários cadastrados:</p>
+
+            <input type="text" placeholder="Pesquisar...">
+            
+            </div>
+
+            <div class="label_list">
+                <p>Data de cadastro</p>
+                <p>Nome</p>
+                <p>Email</p>
+            </div>
+
+            <ul class="users_list">
+                <li><span class="list_information">dd/mmm/yyyy</span><span class="list_information">nome nome nomenome nomenome nome</span><span class="list_information">emailemailemailemailemailemail emailemailemail emailemailemailemailemail email</span><span class="btn_close">&#x00D7;</span></li>
+                <li><span class="list_information">data</span><span class="list_information">nome</span><span class="list_information" >email</span><span class="btn_close">&#x00D7;</span></li>
+                <li><span class="list_information">data</span><span class="list_information">nome</span><span class="list_information" >email</span><span class="btn_close">&#x00D7;</span></li>
+                <li><span class="list_information">data</span><span class="list_information">nome</span><span class="list_information" >email</span><span class="btn_close">&#x00D7;</span></li>
+            </ul>
+            <button>Deletar todos</button>
+        </section>
+    </div>
+    </body>
+
+</html>
