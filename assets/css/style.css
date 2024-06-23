@@ -28,7 +28,7 @@ li{
     padding: 0.5% 1%;
     background-color: #125159;
     box-sizing: border-box;
-    font-family:"Montserrat", sans-serif;
+    font-family: "Josefin Sans", sans-serif;
     position:fixed;
     width: 100%;
     z-index: 3;
@@ -92,7 +92,7 @@ li{
     justify-content: center;
     height: 500px;
     width: 30%;
-    font-family: Signika Negative, "Montserrat", sans-serif;
+    font-family: "Josefin Sans", sans-serif;
     font-weight:500;
     border-radius: 20px;
     background-color: white;
@@ -103,6 +103,7 @@ li{
 
 #sign_box form:hover{
     box-shadow: 0px 0px 8px black;
+
 }
 
 .input_sing{
@@ -138,6 +139,8 @@ li{
 }
 .input_submit:hover{
     background-color: #59771d;
+    height: 4.2rem;
+    width: 8.2rem;
 }
 
 /*Login*/
@@ -200,12 +203,14 @@ li{
 .input_submit_login {
     color: white;
     background-color: #6b8e23;
-    height: 4rem;
-    width: 8rem;
+    height: 4.2rem;
+    width: 8.2rem;
     text-decoration: none;
 }
 .input_submit_login:hover{
     background-color: #59771d;
+    height: 4.4rem;
+    width: 8.4rem;
 }
 
 #login_box form input:hover{
@@ -525,7 +530,20 @@ footer{
     margin: 1rem;
     width: 20%;
     border-radius: 7px;
+    padding: 0.5% 0.5%;
 
+}
+
+#btn_limpar_campos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 0, 0, 0.644);
+
+}
+#btn_limpar_campos:hover{
+    background-color: red;
+    cursor: pointer;
 }
 
 .id_information{
