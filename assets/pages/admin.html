@@ -3,7 +3,8 @@
 
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <script src="/assets/script/app.js"></script>   
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
@@ -12,16 +13,16 @@
 
         <header class="main_header">
             <div id="logo_e_nome">
-                <a href="index.html"><img src="imgs/logoTartaruga.png" alt="foto Tartaruga"></a>
+                <a href="/index.html"><img src="/assets/imgs/logoTartaruga.png" alt="foto Tartaruga"></a>
                 <p>Adote uma Tartaruga</p>
             </div>
             <nav>
                 <ul>
-                    <li><a href="index.html">Home</a></li>
+                    <li><a href="/index.html">Home</a></li>
                     <li><a href="#porque_adotar">Quem somos</a></li>
                     <li><a href="#conteudo_footer">Contatos</a></li>
-                    <li><a href="login.html">Login</a></li>
-                    <li><a href="cadastro.html">Cadastro</a></li>
+                    <li><a href="/assets/pages/login.html">Login</a></li>
+                    <li><a href="/assets/pages/cadastro.html">Cadastro</a></li>
                 </ul>
             </nav>
         </header>
@@ -31,10 +32,10 @@
         <section id="login_box">
 
             <figure>
-                <img src="imgs/tartarugaVistaSuperior.jpg" alt="imagem tartaruga" width="500">
+                <img src="/assets/imgs/tartarugaVistaSuperior.jpg" alt="imagem tartaruga" width="500">
             </figure>
 
-            <form action="index.html" method="get">
+            <form action="/index.html" method="get">
 
                 <label for="nome">Nome</label><br>
                 <input class="input_login" type="text" id="nome" name="nome" required>
@@ -69,10 +70,10 @@
             </div>
 
             <ul class="users_list">
-                <li><span class="list_information">dd/mmm/yyyy</span><span class="list_information">nome nome nomenome nomenome nome</span><span class="list_information">emailemailemailemailemailemail emailemailemail emailemailemailemailemail email</span><span class="btn_close">&#x00D7;</span></li>
-                <li><span class="list_information">data</span><span class="list_information">nome</span><span class="list_information" >email</span><span class="btn_close">&#x00D7;</span></li>
-                <li><span class="list_information">data</span><span class="list_information">nome</span><span class="list_information" >email</span><span class="btn_close">&#x00D7;</span></li>
-                <li><span class="list_information">data</span><span class="list_information">nome</span><span class="list_information" >email</span><span class="btn_close">&#x00D7;</span></li>
+                <li><span class = "id_information">1</span><span class="list_information">dd/mmm/yyyy</span><span class="list_information">nome nome nomenome nomenome nome</span><span class="list_information">emailemailemailemailemailemail emailemailemail emailemailemailemailemail email</span><span class="btn_remove_user">&#x00D7;</span></li>
+                <li><span class = "id_information">2</span><span class="list_information">data</span><span class="list_information">nome</span><span class="list_information" >email</span><span class="btn_remove_user">&#x00D7;</span></li>
+                <li><span class = "id_information">3</span><span class="list_information">data</span><span class="list_information">nome</span><span class="list_information" >email</span><span class="btn_remove_user">&#x00D7;</span></li>
+                <li><span class = "id_information">4</span><span class="list_information">data</span><span class="list_information">nome</span><span class="list_information" >email</span><span class="btn_remove_user">&#x00D7;</span></li>
             </ul>
             <button>Deletar todos</button>
         </section>

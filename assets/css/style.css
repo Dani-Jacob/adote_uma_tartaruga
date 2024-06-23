@@ -467,14 +467,14 @@ footer{
     color: #6b8e23;
 }
 
-.btn_close{
+.btn_remove_user{
     display: inline-block;
     font-size: 2rem;
     width: 10%;
     text-align: center;
     color: white;
 }
-.btn_close:hover{
+.btn_remove_user:hover{
     font-size: 2.4rem;
     cursor: pointer;
     color: rgba(255, 0, 0, 0.644);
@@ -526,4 +526,8 @@ footer{
     width: 20%;
     border-radius: 7px;
 
+}
+
+.id_information{
+    display: none;
 }
