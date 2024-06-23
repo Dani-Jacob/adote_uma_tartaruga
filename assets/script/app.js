@@ -70,7 +70,6 @@ document.addEventListener("DOMContentLoaded", function (event) {
 
     //delete user button click "X"
     function removeButtonClick(element){
-        console.log("ui");
         let id = element.getElementsByClassName("id_information")[0].innerHTML;
         removeUser(id);
         refreshPageUsersList(getAllUsers());
@@ -96,7 +95,6 @@ document.addEventListener("DOMContentLoaded", function (event) {
 
 
     function addUserButtonClick() {
-        console.log("entrou aqui");
         //PEGA O NOME
         let inputNome = document.getElementById("nome").value;
         //PEGA O EMAIL
