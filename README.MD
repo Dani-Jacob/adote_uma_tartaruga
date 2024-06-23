@@ -14,3 +14,17 @@ espécies marinhas em geral. O site proposto irá conectar as ONG’s aos doador
 irão “adotar” uma tartaruga que necessita de cuidados ou um berçário.
 Dessa forma, o projeto propõem aumentar a arrecadação dessas organizações,
 pois tornará o processo de doação mais pessoal e simplificado.
+
+Organização do projeto:
+
+assets (pasta)
+    css (pasta)
+        ...(arquivos)
+    imgs (pasta)
+        ...(arquivos)
+    script (pasta)
+        ...(arquivos)
+    pages
+        ...(arquivos)
+index.html
+README.MD

@@ -435,12 +435,12 @@ footer{
 
 }
 
-.users_list{
+#users_list{
     width: 100%;
     padding: 1rem;
     
 }
-.users_list li{
+#users_list li{
     width: 100%;
     background-color: rgb(128, 128, 128);
     display: flex;
@@ -459,7 +459,7 @@ footer{
 
 }
 
-.users_list li:nth-child(odd){
+#users_list li:nth-child(odd){
     background-color: #125159 ;
     
 }

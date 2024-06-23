@@ -47,7 +47,7 @@
             <br>
             <div class="div_submit">
                 
-                <button class="input_submit_login input_login">Cadastrar
+                <button class="input_submit_login input_login" id="btn_add_user">Cadastrar
                     Usuário</button>
                     <span id="btn_limpar_campos" class="input_submit_login input_login">Limpar campos</span>
             </div>
@@ -62,7 +62,7 @@
             <div class="top">
                 <p class="label_section_list">Usuários cadastrados:</p>
 
-                <input type="text" placeholder="Pesquisar...">
+                <input type="text" placeholder="Pesquisar..." id="input_search_user">
 
             </div>
 
@@ -72,22 +72,10 @@
                 <p>Email</p>
             </div>
 
-            <ul class="users_list">
-                <li><span class="id_information">1</span><span class="list_information">dd/mmm/yyyy</span><span
-                        class="list_information">nome nome nomenome nomenome nome</span><span
-                        class="list_information">emailemailemailemailemailemail emailemailemail
-                        emailemailemailemailemail email</span><span class="btn_remove_user">&#x00D7;</span></li>
-                <li><span class="id_information">2</span><span class="list_information">data</span><span
-                        class="list_information">nome</span><span class="list_information">email</span><span
-                        class="btn_remove_user">&#x00D7;</span></li>
-                <li><span class="id_information">3</span><span class="list_information">data</span><span
-                        class="list_information">nome</span><span class="list_information">email</span><span
-                        class="btn_remove_user">&#x00D7;</span></li>
-                <li><span class="id_information">4</span><span class="list_information">data</span><span
-                        class="list_information">nome</span><span class="list_information">email</span><span
-                        class="btn_remove_user">&#x00D7;</span></li>
+            <ul id="users_list">
+
             </ul>
-            <button>Deletar todos</button>
+            <button id="btn_delete_all">Deletar todos</button>
         </section>
     </div>
 </body>
