@@ -55,14 +55,6 @@ document.addEventListener("DOMContentLoaded", function (event) {
         }
         return users;
 
-        /*
-        let users = [];
-        let keys = Object.keys(localStorage).filter(x => x != "lastId");
-        for (let key of keys) {
-            let obj = localStorage.getItem(key);
-            users.push(JSON.parse(obj));
-        }
-        return users;*/
     };
     function removeAllUsers(){
         localStorage.clear();
@@ -158,13 +150,9 @@ document.addEventListener("DOMContentLoaded", function (event) {
             spanX.className = "btn_remove_user";
             let x = document.createTextNode("\u00D7");
             spanX.appendChild(x);
+            spanX.addEventListener('click',function(){removeButtonClick(this.parentElement)});
             li.appendChild(spanX);
-
             document.getElementById("users_list").appendChild(li);
-        }
-
-        for(let i of document.querySelectorAll(".btn_remove_user")){
-            i.addEventListener('click',function(){removeButtonClick(this.parentElement)});
         }
 
     }
